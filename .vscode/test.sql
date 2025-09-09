@@ -1,0 +1,23 @@
+SELECT VERSION();
+
+-- create DATABASE
+
+
+-- SWITCH TO THE DATABASE
+USE myshop;
+
+-- CREATE USERS TABLE
+CREATE TABLE IF NOT EXISTS Users (
+    user_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(100) 
+
+);
+
+-- CREATE ORDER TABLE WITH A FOREIGN KEY
+CREATE TABLE IF NOT EXISTS Orders (
+    order_id INT PRIMARY KEY,
+    user_id INT,
+    product_name VARCHAR(100),
+    FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);
