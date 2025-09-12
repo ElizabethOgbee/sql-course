@@ -6,28 +6,15 @@
                 "enableSsl": "Disabled"
             },
             "ssh": "Disabled",
-            "previewLimit": 50,
+            "previewLimit": 100,
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "SQL Test",
+            "name": "MySQL Local",
+            "database": "myshopday2",
             "username": "ElizabethO",
-            "database": "mysql",
-            "password": "MySQL345_"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "ssh": "Disabled",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "sql course",
-            "username": "ElizabethO",
-            "database": "mysql"
+            "connectionTimeout": 30,
+            "askForPassword": true
         }
     ]
 }
