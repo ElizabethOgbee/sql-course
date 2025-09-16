@@ -74,3 +74,5 @@ WHERE NOT user_id = 101
 SELECT *
 FROM Orders
 WHERE product_name LIKE 'S%'
+
+DESCRIBE Orders;

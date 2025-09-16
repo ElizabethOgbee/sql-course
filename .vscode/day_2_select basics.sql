@@ -130,8 +130,7 @@ LIMIT 2;
 
 
 
-ALTER TABLE Users;
-
+ALTER TABLE Users
 ADD COLUMN birth_year INT;
 
 DESCRIBE Users;

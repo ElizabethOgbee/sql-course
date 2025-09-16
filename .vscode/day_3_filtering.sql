@@ -38,4 +38,6 @@ from Users
 WHERE birth_year BETWEEN 1998 AND 2002
 -- where birth_year <= 2002
 
+DESCRIBE Users;
+
 
