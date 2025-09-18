@@ -32,9 +32,8 @@ UPDATE Orders SET amount = 90 WHERE user_id = 103;
 UPDATE Orders SET amount = 843 WHERE user_id = 104;
 UPDATE Orders SET amount = 1500 WHERE user_id = 105;
 UPDATE Orders SET amount = 200 WHERE user_id = 106;
-UPDATE Orders SET amount = 109 WHERE user_id = 107;
  DESCRIBE Orders;
-
+SELECT * from Users;
 
 -- 1. COUNT
 
