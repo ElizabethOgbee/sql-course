@@ -129,7 +129,7 @@ HAVING COUNT(*) > 2
 -- LIMIT
 
 -- Restrict the number of rows shown (e.g., first 10).
-
+ 
 -- 📊 Visual Flow Diagram
 -- FROM (get data) 
 --    ↓
